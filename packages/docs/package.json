@@ -1,0 +1,43 @@
+{
+  "name": "@llemosv-ui/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@storybook/addon-actions": "^7.5.0-alpha.2",
+    "@storybook/addon-essentials": "^7.5.0-alpha.2",
+    "@storybook/addon-interactions": "^7.5.0-alpha.2",
+    "@storybook/addon-links": "^7.5.0-alpha.2",
+    "@storybook/addon-mdx-gfm": "^7.5.0-alpha.2",
+    "@storybook/react": "^7.5.0-alpha.2",
+    "@storybook/react-vite": "^7.5.0-alpha.2",
+    "@storybook/storybook-deployer": "^2.8.16",
+    "@storybook/testing-library": "^0.2.1-next.1",
+    "@vitejs/plugin-react": "^2.1.0",
+    "babel-loader": "^8.2.5",
+    "eslint-plugin-storybook": "^0.6.13",
+    "storybook": "^7.5.0-alpha.2",
+    "vite": "^3.1.4"
+  },
+  "dependencies": {
+    "@llemosv-ui/eslint-config": "*",
+    "@llemosv-ui/react": "*",
+    "@llemosv-ui/tokens": "*",
+    "@llemosv-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^7.5.0-alpha.2",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
